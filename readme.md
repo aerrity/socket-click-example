@@ -288,7 +288,7 @@ On the client-side, we can add Socket.io by modifying `index.html`. We need to l
 
 and write some JavaScript to connect to the server:
 
-```
+```html
 <script>
 	 var socket = io.connect();
 </script>
@@ -296,7 +296,7 @@ and write some JavaScript to connect to the server:
 
 so the full `index.html` becomes:
 
-```
+```html
 <!DOCTYPE html>
 <html>
    <head>
@@ -371,7 +371,7 @@ that handles 'clicked' messages that come in from the client. When the server re
 
 This message contains the clickCount variable, which will be received by the **client-side** function we have already added to `index.html`:
 
-```
+```js
 socket.on('buttonUpdate', function(data){
 	document.getElementById("buttonCount").innerHTML = 'The button has been clicked ' + data + ' times.';
 });
