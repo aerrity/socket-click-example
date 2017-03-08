@@ -8,7 +8,7 @@ This tutorial will talk you through how to setup a [Node.js](https://nodejs.org/
 
 **Node.js** is a JavaScript runtime that allows you to run JavaScript code on the server-side. You can think of it as the JavaScript runtime (e.g. console) from the web browser (e.g. Chrome) ripped out and made available for web servers.
 
-If you haven't already, head along to [https://nodejs.org]() and install Node on your machine. (_Note: it's already installed on the lab machines_).
+If you haven't already, head along to [https://nodejs.org](https://nodejs.org) and install Node on your machine. (_Note: it's already installed on the lab machines_).
 
 ### Running JavaScript code with Node
 
@@ -116,7 +116,7 @@ This code setups an Express webserver and starts it listening on port 3000. To s
 
 	node server.js
 	
-You can then visit [http://localhost:3000]() in your web browser. The browser will send a GET request for the root folder (/) which will return an error.
+You can then visit [http://localhost:3000](http://localhost:3000) in your web browser. The browser will send a GET request for the root folder (/) which will return an error.
 
 	Cannot GET /
 	
@@ -154,7 +154,7 @@ Create a new folder in your project folder called `public`. This folder will hol
 </html>
 ```
 
-Restart your server by pressing CTRL+C on the command line and then running `node server.js` again. Now when you visit [http://localhost:3000]() you should be routed to index.html.
+Restart your server by pressing CTRL+C on the command line and then running `node server.js` again. Now when you visit [http://localhost:3000](http://localhost:3000) you should be routed to index.html.
 
 ![index.html](index_1.png)
 
@@ -166,7 +166,7 @@ app.get('/users', function(req, res,next) {
 });
 ```
 	
-would route from [http://localhost:3000/users]() to the file `public/users.html`.
+would route from [http://localhost:3000/users](http://localhost:3000) to the file `public/users.html`.
 
 ## Serving static files
 
@@ -314,7 +314,7 @@ so the full `index.html` becomes:
 </html>
 ```
 
-Now each time we load [http://localhost:3000](), the client connects to our server, and the server logs the connection.
+Now each time we load [http://localhost:3000](http://localhost:3000), the client connects to our server, and the server logs the connection.
 
 ![2 clients connected](clients_1.png)
 
