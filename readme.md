@@ -277,6 +277,17 @@ server.listen(3000, function(){
   console.log('listening on *:3000');
 }); 
 ```
+#### Quick tip
+
+Are you getting annoyed having to go to the command line to stop and restart your node server each time you change `server.js`? Good news! There's a tool called [nodemon](http://nodemon.io/) that will watch for changes to your node application and automatically restart the server. 
+
+You can install it using:
+
+	npm install -g nodemon
+	
+the `-g` makes it available in all your projects.
+
+Now to run your file use `nodemon server.js` instead of `node server.js`. Time saver!
 
 ### Client-side
 
