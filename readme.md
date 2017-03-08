@@ -302,6 +302,7 @@ so the full `index.html` becomes:
    <head>
       <title>Socket.io Demo</title>
       <meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
    </head>
    <body>
 		 <h1>Socket.io Demo</h1>	 
@@ -333,6 +334,7 @@ To demonstrate this we will modify our client and server. Start by adding a `<p>
    <head>
       <title>Socket.io Demo</title>
       <meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
    </head>
    <body>
 		 <h1>Socket.io Demo</h1>	 
