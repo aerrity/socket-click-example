@@ -417,4 +417,4 @@ Putting this all together should produce the following!
 
 # Taking this a step further
 
-Can you modify this example so that their is a text input field in the client, and when a user types a message in the input field and clicks a 'send' button the text they typed in is sent to all the other connected clients and displayed on the webpage? This is the first step towards a chat app.
+Can you modify this example so that there is a text input field in the client, and when a user types a message in the input field and clicks a 'send' button the text they typed in is sent to all the other connected clients and displayed on the webpage? This is the first step towards a chat app.
